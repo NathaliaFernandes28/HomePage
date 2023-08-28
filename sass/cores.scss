@@ -1,0 +1,83 @@
+$orange: hsl(35, 77%, 62%);
+$red: hsl(5, 85%, 63%);
+$white: hsl(36, 100%, 99%);
+$blue: hsl(233, 8%, 79%);
+$DarkBlue: hsl(236, 13%, 42%);
+$VeryDarkBlue: hsl(240, 100%, 5%);
+
+.item1 {
+  p {
+    color: $blue;
+  }
+  p:hover {
+    color: $red;
+    transition: 0.2s;
+  }
+}
+.item3 {
+  background-color: $VeryDarkBlue;
+  .firstNotice {
+    h1 {
+      color: $orange;
+    }
+    h3 {
+      color: $white;
+    }
+    p {
+      color: $blue;
+    }
+  }
+  .secondNotice {
+    h3 {
+      color: $white;
+    }
+    p {
+      color: $blue;
+    }
+  }
+  .treeNotice {
+    h3 {
+      color: $white;
+    }
+    p {
+      color: $blue;
+    }
+  }
+}
+.item5 {
+  .button {
+    background-color: $red;
+    color: $white;
+    border: none;
+  }
+  .button:hover {
+    color: $VeryDarkBlue;
+    transition: 0.2s;
+  }
+}
+.item6 {
+  .footer1 {
+    h3 {
+      color: $blue;
+    }
+    p {
+      color: $blue;
+    }
+  }
+  .footer2 {
+    h3 {
+      color: $blue;
+    }
+    p {
+      color: $blue;
+    }
+  }
+  .footer3 {
+    h3 {
+      color: $blue;
+    }
+    p {
+      color: $blue;
+    }
+  }
+}

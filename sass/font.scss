@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+$fontFamily: "Inter", sans-serif;
+$fontSize: 12px;
+
+.item1 {
+  nav {
+    font-family: $fontFamily;
+    font-size: 15px;
+  }
+}
+.item3 {
+  background-color: $VeryDarkBlue;
+  .firstNotice {
+    h1 {
+      font-family: $fontFamily;
+      font-size: 25px;
+    }
+    h3 {
+      font-family: $fontFamily;
+      font-size: 15px;
+    }
+    p {
+      font-family: $fontFamily;
+      font-size: 12px;
+    }
+  }
+  .secondNotice {
+    h1 {
+      font-family: $fontFamily;
+      font-size: 10px;
+    }
+    h3 {
+      font-family: $fontFamily;
+      font-size: 15px;
+    }
+    p {
+      font-family: $fontFamily;
+      font-size: 12px;
+    }
+  }
+  .treeNotice {
+    h1 {
+      font-family: $fontFamily;
+      font-size: 10px;
+    }
+    h3 {
+      font-family: $fontFamily;
+      font-size: 15px;
+    }
+    p {
+      font-family: $fontFamily;
+      font-size: 12px;
+    }
+  }
+}
+.itemWrite {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  .button {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+  }
+}
+
+.item6 {
+  .footer1 {
+    h3 {
+      font-family: $fontFamily;
+      font-size: $fontSize;
+    }
+    h5 {
+      font-family: $fontFamily;
+      font-size: $fontSize;
+    }
+    p {
+      font-family: $fontFamily;
+      font-size: $fontSize;
+    }
+  }
+  .footer2 {
+    h3 {
+      font-family: $fontFamily;
+      font-size: $fontSize;
+    }
+    h5 {
+      margin-top: 10px;
+      font-family: $fontFamily;
+      font-size: $fontSize;
+    }
+    p {
+      margin-top: 10px;
+      font-family: $fontFamily;
+      font-size: $fontSize;
+    }
+  }
+  .footer3 {
+    h3 {
+      font-family: $fontFamily;
+      font-size: $fontSize;
+    }
+    h5 {
+      margin-top: 10px;
+      font-family: $fontFamily;
+      font-size: $fontSize;
+    }
+    p {
+      margin-top: 10px;
+      font-family: $fontFamily;
+      font-size: $fontSize;
+    }
+  }
+}
