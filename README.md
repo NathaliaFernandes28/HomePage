@@ -14,7 +14,7 @@ Aplicação composto por um header, onde encontramos a logo do site e uma nav co
 Em seguida, encontramos a sessão principal (main) que foi construida com o grid e, dentro dessa sessão principal, 
 uma sessão article com as últimas notícias em destaque. Logo depois, temos um head de destaque e um texto com mais 
 informações sobre a notícia, somado a um botão com "Read More". Por último, temos um footer com as sessões menos acessada do site. 
-Site do projeto: https://nathaliafernandes28.github.io/HomePage/
+Site do projeto: https://home-page-eta-jade.vercel.app/
 
 🏁 Instalação:
 
